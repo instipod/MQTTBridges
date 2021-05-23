@@ -151,7 +151,7 @@ while (True):
                                       macaddress, sw_version)
                 publish_sensor_config(client, "Line 1 TX Rate", "l1txrate", "Mbps", "rate", "mdi:speedometer", serialnumber,
                                       macaddress, sw_version)
-                publish_sensor_config(client, "Line 2 RX Rate", "l2rxrate", "Mbps", "rate", "mdi:speedometer", serialnumber,
+                publish_sensor_config(client, "Line 2 RX Rate", "l2txrate", "Mbps", "rate", "mdi:speedometer", serialnumber,
                                       macaddress, sw_version)
                 publish_sensor_config(client, "DSL RX Rate", "dslrxrate", "Mbps", "rate", "mdi:speedometer", serialnumber,
                                       macaddress, sw_version)
